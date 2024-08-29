@@ -1,0 +1,105 @@
+.main-heading {
+  color: #000080;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: "Roboto";
+}
+
+@media screen and (min-width: 768px) {
+  .main-heading {
+    font-size: 40px;
+  }
+}
+
+.main-container {
+  background-color: #008080;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  height: 40px;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding-left: 10px;
+  color: #000;
+  font-size: 20px;
+  font-family: "Roboto";
+}
+
+.form {
+  width: 245px;
+  max-width: 100%;
+  display: flex;
+  background-color: #fff;
+}
+.button {
+  background-color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+}
+.location {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 5px;
+  font-family: "Roboto";
+  text-align: center;
+  margin-left: 10px;
+}
+.date {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 5px;
+  font-family: "Roboto";
+  margin-top: 15px;
+}
+
+.time {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 5px;
+  font-family: "Roboto";
+}
+
+.search {
+  width: 30px;
+}
+
+.temp {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+}
+.speed {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+}
+
+.image {
+  border-radius: 30px;
+  margin-top: 20px;
+  width: 30px;
+  margin-left: 20px;
+}
+.city-name {
+  display: flex;
+  align-items: center;
+}
+.cloud-image {
+  width: 50px;
+  border-radius: 70px;
+}
+
+@media screen and (min-width: 768px) {
+  .cloud-image {
+    width: 90px;
+    border-radius: 70px;
+  }
+}
